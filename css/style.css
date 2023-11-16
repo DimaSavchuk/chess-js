@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid black;
+}
+
+.square {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+
+.square svg {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.white-square {
+  background-color: rgb(115, 115, 115);
+}
+
+.dark-square {
+  background-color: rgb(128, 64, 48);
+}
+
+.black-chess {
+  fill: black;
+}
+
+.white-chess {
+  fill: white;
+}
