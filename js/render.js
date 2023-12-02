@@ -28,11 +28,11 @@ class Render {
       }
 
       if (square.id <= 15) {
-        squareElement.firstChild.firstChild.classList.add('black-chess');
+        squareElement.firstChild.firstChild.classList.add('black');
       }
 
       if (square.id >= 48) {
-        squareElement.firstChild.firstChild.classList.add('white-chess');
+        squareElement.firstChild.firstChild.classList.add('white');
       }
 
       gameBoard.append(squareElement);
